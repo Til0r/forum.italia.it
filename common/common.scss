@@ -51,6 +51,15 @@ html {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.select-kit.category-drop .select-kit-collection
+  .select-kit-row.category-row.is-highlighted:not(.is-selected) {
+  --d-hover: var(--primary-low);
+
+  :is(.badge-category__name, .category-desc, .topic-count) {
+    color: var(--primary);
+  }
+}
+
 /* Footer */
 
 /* Icons */
